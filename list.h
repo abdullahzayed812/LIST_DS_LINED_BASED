@@ -13,7 +13,7 @@ typedef struct list {
   int size;
 } List;
 
-void createList(List*);
+void initializeList(List*);
 bool listEmpty(List*);
 bool listFull(List*);
 int listSize(List*);
